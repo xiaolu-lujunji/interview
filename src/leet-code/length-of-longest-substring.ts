@@ -2,10 +2,13 @@
  * [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
  */
 export default function lengthOfLongestSubstring(s: string): number {
-  const set = new Set<string>();
+  if (s.length === 0) return 0;
+  if (s.length === 1) return 1;
+
+  const set = new Set<string>(s[0]);
   let i = 0;
-  let result = 0;
-  for (let j = 0; j < s.length; ++j) {
+  let result = 1;
+  for (let j = 1; j < s.length; ++j) {
     const char = s[j];
     while (set.has(char)) {
       set.delete(s[i]);
