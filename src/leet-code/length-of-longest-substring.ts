@@ -1,7 +1,7 @@
 /**
  * [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
  */
-export default function lengthOfLongestSubstring(s: string): number {
+function lengthOfLongestSubstring(s: string): number {
   if (s.length === 0) return 0;
   if (s.length === 1) return 1;
 
