@@ -1,5 +1,6 @@
 /**
- * [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
+ * @source [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
+ * @tag 动态规划
  */
 function maxSubArray(nums: number[]): number {
   let maxSum = nums[0];

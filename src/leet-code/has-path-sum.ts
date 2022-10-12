@@ -11,7 +11,8 @@ class TreeNode {
 }
 
 /**
- * [112. 路径总和](https://leetcode.cn/problems/path-sum/)
+ * @source [112. 路径总和](https://leetcode.cn/problems/path-sum/)
+ * @tag 深度优先搜索
  */
 function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
   if (root === null) return false;

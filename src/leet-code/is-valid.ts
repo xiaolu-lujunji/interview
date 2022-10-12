@@ -1,5 +1,6 @@
 /**
- * [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses)
+ * @source [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses)
+ * @tag 栈
  */
 function isValid(s: string): boolean {
   // 注意到有效字符串的长度一定为偶数，因此如果字符串的长度为奇数，我们可以直接返回 \text{False}False，省去后续的遍历判断过程。
