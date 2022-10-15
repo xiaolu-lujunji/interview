@@ -4,3 +4,9 @@ declare class TreeNode {
   left: TreeNode | null;
   right: TreeNode | null;
 }
+
+//Definition for singly-linked list.
+declare class ListNode {
+  val: number;
+  next: ListNode | null;
+}
