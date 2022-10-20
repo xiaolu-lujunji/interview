@@ -2,7 +2,7 @@
  * @source [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
  * @tag morris中序遍历
  */
-function inorderTraversal(root: TreeNode | null): number[] {
+function inorderTraversal(root: LeetCode.TreeNode | null): number[] {
   const results: number[] = [];
 
   let x = root;
