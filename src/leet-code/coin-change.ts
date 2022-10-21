@@ -1,5 +1,6 @@
 /**
- * @source [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
+ * @description 322. 零钱兑换
+ * @see https://leetcode.cn/problems/coin-change/
  * @tag 动态规划
  */
 

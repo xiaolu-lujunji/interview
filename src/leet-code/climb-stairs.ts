@@ -1,5 +1,6 @@
 /**
- * @source [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)
+ * @description 70. 爬楼梯
+ * @see https://leetcode.cn/problems/climbing-stairs/
  * @tag 动态规划 矩阵快速幂 通项公式
  */
 function climbStairs(n: number): number {

@@ -1,5 +1,6 @@
 /**
- * @source [718. 最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/submissions/)
+ * @description 718. 最长重复子数组
+ * @see https://leetcode.cn/problems/maximum-length-of-repeated-subarray/submissions/
  * @tag 动态规划 滑动窗口 二分查找+哈希
  */
 function findLength(nums1: number[], nums2: number[]): number {

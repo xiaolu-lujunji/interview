@@ -1,5 +1,6 @@
 /**
- * @source [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses)
+ * @description 20. 有效的括号
+ * @see https://leetcode.cn/problems/valid-parentheses/
  * @tag 栈
  */
 function isValid(s: string): boolean {

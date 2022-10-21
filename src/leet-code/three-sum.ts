@@ -1,5 +1,6 @@
 /**
- * @source [15. 三数之和](https://leetcode.cn/problems/3sum/)
+ * @description 15. 三数之和
+ * @see https://leetcode.cn/problems/3sum/
  * @tag 排序 双指针
  */
 function threeSum(nums: number[]): number[][] {

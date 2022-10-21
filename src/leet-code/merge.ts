@@ -1,5 +1,6 @@
 /**
- * @source [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
+ * @description 88. 合并两个有序数组
+ * @see https://leetcode.cn/problems/merge-sorted-array/
  * @tag 逆向双指针
  */
 function merge(nums1: number[], m: number, nums2: number[], n: number): void {

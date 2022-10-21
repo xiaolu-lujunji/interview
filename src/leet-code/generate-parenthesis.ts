@@ -1,5 +1,6 @@
 /**
- * @source [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/)
+ * @description 22. 括号生成
+ * @see https://leetcode.cn/problems/generate-parentheses/
  * @tag 递归
  */
 function generateParenthesis(n: number): string[] {

@@ -1,5 +1,6 @@
 /**
- * @source [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+ * @description 155. 最小栈
+ * @see https://leetcode.cn/problems/min-stack/
  * @tag
  */
 class MinStack {

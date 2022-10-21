@@ -1,8 +1,9 @@
 /**
- * @source [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
+ * @description 141. 环形链表
+ * @see https://leetcode.cn/problems/linked-list-cycle/
  * @tag 快慢指针
  */
-function hasCycle(head: ListNode | null): boolean {
+function hasCycle(head: LeetCode.ListNode | null): boolean {
   let p1 = head;
   let p2 = head;
 

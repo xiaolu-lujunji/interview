@@ -1,5 +1,6 @@
 /**
- * @source [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+ * @description 215. 数组中的第K个最大元素
+ * @see https://leetcode.cn/problems/kth-largest-element-in-an-array/
  * @tag 基于快速排序的选择方法
  */
 export default function findKthLargest(nums: number[], k: number): number {

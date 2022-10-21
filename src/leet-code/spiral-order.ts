@@ -1,5 +1,6 @@
 /**
- * @source [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
+ * @description 54. 螺旋矩阵
+ * @see https://leetcode.cn/problems/spiral-matrix/
  * @tag 模拟
  */
 function spiralOrder(matrix: number[][]): number[] {

@@ -1,5 +1,6 @@
 /**
- * @source [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence)
+ * @description 300. 最长递增子序列
+ * @see https://leetcode.cn/problems/longest-increasing-subsequence/
  * @tag 动态规划
  */
 export default function lengthOfLIS(nums: number[]): number {

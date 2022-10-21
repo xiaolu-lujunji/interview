@@ -1,5 +1,6 @@
 /**
- * @source [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+ * @description 1. 两数之和
+ * @see https://leetcode.cn/problems/two-sum/
  * @tag 哈希表
  */
 function twoSum(nums: number[], target: number): number[] {

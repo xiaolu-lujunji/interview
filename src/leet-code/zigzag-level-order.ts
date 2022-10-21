@@ -1,5 +1,6 @@
 /**
- * @source [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/submissions/)
+ * @description 103. 二叉树的锯齿形层序遍历
+ * @see https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/submissions/
  * @tag 广度优先搜索
  */
 function zigzagLevelOrder(root: LeetCode.TreeNode | null): number[][] {

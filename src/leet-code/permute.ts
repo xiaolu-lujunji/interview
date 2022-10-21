@@ -1,5 +1,6 @@
 /**
- * @source [46. 全排列](https://leetcode.cn/problems/permutations/)
+ * @description 46. 全排列
+ * @see https://leetcode.cn/problems/permutations/
  * @tag 回溯
  */
 function permute(nums: number[]): number[][] {

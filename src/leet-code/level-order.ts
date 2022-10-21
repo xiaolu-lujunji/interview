@@ -1,5 +1,6 @@
 /**
- * @source [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/)
+ * @description 102. 二叉树的层序遍历
+ * @see https://leetcode.cn/problems/binary-tree-level-order-traversal/
  * @tag 广度优先搜索
  */
 function levelOrder(root: LeetCode.TreeNode | null): number[][] {
@@ -23,7 +24,8 @@ function levelOrder(root: LeetCode.TreeNode | null): number[][] {
 }
 
 /**
- * @source [429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/)
+ * @description 429. N 叉树的层序遍历
+ * @see https://leetcode.cn/problems/n-ary-tree-level-order-traversal/
  * @tag 广度优先搜索
  */
 function levelOrder2(root: LeetCode.Node | null): number[][] {

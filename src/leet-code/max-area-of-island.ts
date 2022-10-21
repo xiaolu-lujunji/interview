@@ -1,5 +1,6 @@
 /**
- * @source [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/)
+ * @description 695. 岛屿的最大面积
+ * @see https://leetcode.cn/problems/max-area-of-island/
  * @tag 深度优先搜索 广度优先搜索
  */
 function maxAreaOfIsland(grid: number[][]): number {

@@ -1,5 +1,6 @@
 /**
- * @source [415. 字符串相加](https://leetcode.cn/problems/add-strings/)
+ * @description 415. 字符串相加
+ * @see https://leetcode.cn/problems/add-strings/
  * @tag 模拟
  */
 function addStrings(num1: string, num2: string): string {

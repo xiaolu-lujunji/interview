@@ -1,5 +1,6 @@
 /**
- * @source [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers)
+ * @description 165. 比较版本号
+ * @see https://leetcode.cn/problems/compare-version-numbers/
  * @tag 双指针
  */
 function compareVersion(version1: string, version2: string): number {

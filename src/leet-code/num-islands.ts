@@ -1,5 +1,6 @@
 /**
- * @source [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/)
+ * @description 200. 岛屿数量
+ * @see https://leetcode.cn/problems/number-of-islands/
  * @tag 深度优先搜索 广度优先搜索 并查集
  */
 function numIslands(grid: string[][]): number {

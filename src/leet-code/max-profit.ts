@@ -1,5 +1,6 @@
 /**
- * @source [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+ * @description 121. 买卖股票的最佳时机
+ * @see https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/
  * @tag 一次遍历
  */
 function maxProfit(prices: number[]): number {

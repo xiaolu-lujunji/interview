@@ -1,5 +1,6 @@
 /**
- * @source [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/)
+ * @description 94. 二叉树的中序遍历
+ * @see https://leetcode.cn/problems/binary-tree-inorder-traversal/
  * @tag morris中序遍历
  */
 function inorderTraversal(root: LeetCode.TreeNode | null): number[] {

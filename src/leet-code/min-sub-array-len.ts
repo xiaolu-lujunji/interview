@@ -1,5 +1,6 @@
 /**
- * @source [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)
+ * @description 209. 长度最小的子数组
+ * @see https://leetcode.cn/problems/minimum-size-subarray-sum/
  * @tag 滑动窗口
  */
 function minSubArrayLen(target: number, nums: number[]): number {

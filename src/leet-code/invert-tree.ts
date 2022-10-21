@@ -1,9 +1,10 @@
 /**
- * @source [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
+ * @description 226. 翻转二叉树
+ * @see https://leetcode.cn/problems/invert-binary-tree/
  * @tag 递归
  */
-function invertTree(root: TreeNode | null): TreeNode | null {
-  const helper = (root: TreeNode | null) => {
+function invertTree(root: LeetCode.TreeNode | null): LeetCode.TreeNode | null {
+  const helper = (root: LeetCode.TreeNode | null) => {
     if (root === null) return;
     const temp = root.left;
     root.left = root.right;
