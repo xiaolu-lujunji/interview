@@ -4,17 +4,14 @@
  * @tag 模拟
  */
 function thousandSeparator(n: number): string {
-  if (n === 0) return "0";
   let result = "";
   let i = 0;
-  while (n > 0) {
-    result = (n % 10) + result;
-    i++;
+  do {
+    const unitDigit = n % 10;
+    result = (i !== 0 && i % 3 === 0 ? "." : "") + result;
+    result = unitDigit + result;
     n = Math.floor(n / 10);
-    if (n !== 0 && i === 3) {
-      result = "." + result;
-      i = 0;
-    }
-  }
+    i++;
+  } while (n > 0);
   return result;
 }
