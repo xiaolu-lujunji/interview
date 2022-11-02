@@ -21,7 +21,7 @@ function countNodes(root: TreeNode | null): number {
   };
 
   let depth = 0;
-  let node = root;
+  let node: TreeNode | null = root;
   while (node) {
     node = node.left;
     depth++;
