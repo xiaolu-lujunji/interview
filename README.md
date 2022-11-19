@@ -13,3 +13,10 @@ Front-end interview questions brush records
 - [x] [实现 debounce()](https://bigfrontend.dev/problem/implement-debounce-with-leading-and-trailing-option)
 
 - [x] [实现 EventEmitter](https://bigfrontend.dev/problem/create-an-Event-Emitter)
+
+- [x] [实现 detectType()](https://bigfrontend.dev/problem/detect-data-type-in-JavaScript)
+
+- [x] [实现 Array.prototype.flat()](https://bigfrontend.dev/problem/implement-Array-prototype.flat)
+
+- [x] [用 ES5 语法实现继承](https://bigfrontend.dev/problem/write-your-own-extends-in-es5)
+

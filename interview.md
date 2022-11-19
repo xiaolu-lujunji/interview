@@ -306,5 +306,3 @@ getA();
 133. commonJS的特性
 
 134. xss和csrf是什么？怎么防御xss和csrf
-
-135. 原生js实现继承
