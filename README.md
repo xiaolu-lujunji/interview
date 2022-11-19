@@ -1,6 +1,6 @@
 # interview
 
-Front-end interview questions brush records
+My preparation for improving front-end interview skills.
 
 - [x] [解释一下 `this` 在 JavaScript 中是如何工作的](https://www.greatfrontend.com/questions/quiz/javascript/explain-how-this-works-in-javascript)
 
