@@ -59,37 +59,20 @@
 5
 
 32. 防抖节流区别
-
 33. useCallback & useMemo
-
 34. 我学习前端有哪些途径，以及身边同学和朋友做什么技术方向
-
 35. 说一下关于 ES6 你知道的，用过的，了解的
-
-36. 说一下有哪些是宏任务，有哪些是微任务
-
-37. 说一下你对 vuex 的认识
-
-38. vuex 中为什么推荐单向数据流？
-
-39. 在 mutation 中能做 action 的异步操作吗？vuex 里当数据的改变时是如何让组件知道数据改变了？
-
-40. 箭头函数能通过 new 进行实例化吗？
-
-41. [15. 三数之和](https://leetcode.cn/problems/3sum/)
-
-42. Vue2 和 Vue3 的区别
-
-43. Vue3 编译优化
-
-44. Vue2 computed 实现原理
-
-45. [215. 数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
-
-46. [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
-
-47. 实现 curry 函数
-
+36. 说一下你对 vuex 的认识
+37. vuex 中为什么推荐单向数据流？
+38. 在 mutation 中能做 action 的异步操作吗？vuex 里当数据的改变时是如何让组件知道数据改变了？
+39. 箭头函数能通过 new 进行实例化吗？
+40. [15. 三数之和](https://leetcode.cn/problems/3sum/)
+41. Vue2 和 Vue3 的区别
+42. Vue3 编译优化
+43. Vue2 computed 实现原理
+44. [215. 数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+45. [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
+46. 实现 curry 函数
 48. this 指向什么？为什么？
 
 ```javascript
@@ -271,8 +254,6 @@ getA();
 
 122. vue的双向绑定实现
 
-123. node的事件循环机制是什么
-
 124. 怎么用promise实现async和await
 
 125. 你能给我讲一下什么是微服务吗？
@@ -304,5 +285,3 @@ getA();
 132. vue组件间的通信有哪些方式，有用过的有哪些
 
 133. commonJS的特性
-
-134. xss和csrf是什么？怎么防御xss和csrf
