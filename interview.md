@@ -127,45 +127,25 @@ test("element", () => {
 ```
 
 70. 对 redux 的了解？一个项目只能有一 store 吗？
-
 71. 知道 requestAnimationFrame 吗？
-
 72. 假设要做无限下拉加载怎么做？
-
 73. 说一下如何拦截对 JavaScript 对象的属性的修改
-
 74. Css 中 property 和 attribute 的具体区别
-
 75. Vue 如何解析 template 模板标签的代码？如何被编译的，最后被编译成什么
-
 76. Vue 中的 key 是干什么的
-
-77. script 标签的 defer 和 async 属性
-
-78. 说一下 proxy
-
+77. 说一下 proxy
 79. 说一下跨域的解决方案
 
 2
 
 79. 实现节流按钮组件
-
-80. 手写 instanceof
-
-81. 表单解决方案，**jsonSchema** 协议
-
-82. 前端测网速，一个请求从发送到接受经历了一些步骤，怎么更精准
-
-83. 用过哪些 hooks
-
-84. redux 有哪些 hooks
-
-85. react 有哪些自带的 hooks
-
-86. js 的隐式转换？举个栗子说一下
-
-87. js 作用域
-
+80. 表单解决方案，**jsonSchema** 协议
+81. 前端测网速，一个请求从发送到接受经历了一些步骤，怎么更精准
+82. 用过哪些 hooks
+83. redux 有哪些 hooks
+84. react 有哪些自带的 hooks
+85. js 的隐式转换？举个栗子说一下
+86. js 作用域
 88. css 盒模型
 
 2
@@ -181,22 +161,6 @@ test("element", () => {
 
 [1. 两数之和](https://leetcode.cn/problems/two-sum/)
 
-97. 问答题：说一下结果
-
-```javascript
-window.name = "byteDance";
-function A() {
-  this.name = "123";
-}
-A.prototype.getA = function () {
-  console.log(this);
-  return this.name + "1";
-};
-const a = new A();
-const getA = a.getA;
-getA();
-```
-
 98. js 里有哪些改变 this 指向的方法
 
 100. 合并两个有序数组
@@ -204,10 +168,8 @@ getA();
 [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
 
 101. webpack 原理
-102. React 里面直接将内容设置到 DOM 上的方法
 103. cookie 的 http-only 和 same-site，cookie 怎么设置只在 https 时携带
 104. cookie 和 session 的区别
-105. 最长回文子序列
 
 [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)
 
@@ -228,8 +190,6 @@ getA();
      
      3
 
-113. 你认为 virtual DOM 存在的意义是什么？
-
 114. 浏览器的缓存机制了解吗？前端发送请求时能否设置缓存机制类型？
 
 115. 你知道浏览器的哪些存储数据的方式？
@@ -244,20 +204,4 @@ getA();
 
 121. cookie sessionstorage localstorage
 
-122. vue的双向绑定实现
-
-123. 怎么用promise实现async和await
-
-126. 第三大的数
-     
-     [414. 第三大的数](https://leetcode.cn/problems/third-maximum-number/)
-
-127. webpack和vite的区别
-
-128. 进程和线程区别是什么
-
-129. 堆栈是什么
-
-130. BFC
-
-133. commonJS的特性
+120. 怎么用promise实现async和await
