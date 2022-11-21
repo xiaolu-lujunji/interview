@@ -54,4 +54,5 @@ My preparation for improving front-end interview skills.
   }
   ```
 
-- [x] [你知道 Vue 的响应式原理吗？](./src/reactivity.ts)
+- [x] [你知道 Vue 的响应式原理吗？](https://vuejs.org/guide/extras/reactivity-in-depth.html#how-reactivity-works-in-vue)
+
