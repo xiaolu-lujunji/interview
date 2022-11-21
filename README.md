@@ -32,7 +32,6 @@ My preparation for improving front-end interview skills.
 
   宏任务
 
-  - `script` 标签中的代码
   - 事件回调
   - `setTimeout()` 安排的回调
   - `setInterval()` 安排的回调
@@ -42,5 +41,4 @@ My preparation for improving front-end interview skills.
 
   - `Promise.prototype.then()`、`Promise.prototype.catch()`、`Promise.prototype.finally()` 安排的回调
   - `queueMicroTask()` 安排的回调
-  - Node.js 中 `process.nextTick()` 安排的回调
 
