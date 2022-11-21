@@ -61,15 +61,13 @@
 36. 说一下你对 vuex 的认识
 37. vuex 中为什么推荐单向数据流？
 38. 在 mutation 中能做 action 的异步操作吗？vuex 里当数据的改变时是如何让组件知道数据改变了？
-39. 箭头函数能通过 new 进行实例化吗？
-40. [15. 三数之和](https://leetcode.cn/problems/3sum/)
-41. Vue2 和 Vue3 的区别
-42. Vue3 编译优化
-43. Vue2 computed 实现原理
-44. [215. 数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
-45. [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
-46. 实现 curry 函数
-48. this 指向什么？为什么？
+39. [15. 三数之和](https://leetcode.cn/problems/3sum/)
+40. Vue2 和 Vue3 的区别
+41. Vue3 编译优化
+42. Vue2 computed 实现原理
+43. [215. 数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+44. [1926. 迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
+45. this 指向什么？为什么？
 
 ```javascript
 function foo() {

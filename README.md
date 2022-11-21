@@ -42,3 +42,5 @@ My preparation for improving front-end interview skills.
   - `Promise.prototype.then()`、`Promise.prototype.catch()`、`Promise.prototype.finally()` 安排的回调
   - `queueMicroTask()` 安排的回调
 
+- [x] [实现 `curry()`](https://bigfrontend.dev/problem/implement-curry-with-placeholder)
+
