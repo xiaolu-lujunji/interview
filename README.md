@@ -44,3 +44,14 @@ My preparation for improving front-end interview skills.
 
 - [x] [实现 `curry()`](https://bigfrontend.dev/problem/implement-curry-with-placeholder)
 
+- [x] 输出是什么
+
+  ```javascript
+  for (let i = 0; i < 5; i++) {
+    setTimeout(function () {
+      console.log(i + '');
+    });
+  }
+  ```
+
+  
