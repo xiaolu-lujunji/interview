@@ -4,41 +4,40 @@
  * @tag 基于快速排序的选择方法
  */
 export default function findKthLargest(nums: number[], k: number): number {
-  const swap = (index1: number, index2: number) => {
-    const temp = nums[index1];
-    nums[index1] = nums[index2];
-    nums[index2] = temp;
+  const swap = (numbers: number[], index1: number, index2: number) => {
+    const temp = numbers[index1];
+    numbers[index1] = numbers[index2];
+    numbers[index2] = temp;
   };
 
-  const partition = (left: number, right: number) => {
-    const pivotIndex = Math.trunc(Math.random() * (right - left + 1)) + left;
-    const pivot = nums[pivotIndex];
-    let i = left - 1;
-    let j = right + 1;
-    let k = left;
-    while (k < j) {
-      if (nums[k] === pivot) {
-        k++;
-      } else if (nums[k] < pivot) {
-        swap(++i, k++);
+  const partition = (numbers: number[], start: number, end: number) => {
+    const pivot = numbers[Math.floor(end - start + 1) + start];
+    let l = start - 1;
+    let r = end + 1;
+    let i = start;
+    while (i < r) {
+      if (numbers[i] === pivot) {
+        i++;
+      } else if (numbers[i] < pivot) {
+        swap(numbers, ++l, i++);
       } else {
-        swap(--j, k);
+        swap(numbers, --r, i);
       }
     }
-    return k - 1;
+    return [l, r];
   };
 
-  let left = 0;
-  let right = nums.length - 1;
-  const targetIndex = nums.length - k;
+  const index = nums.length - k;
+  let start = 0;
+  let end = nums.length - 1;
   while (true) {
-    const pivotIndex = partition(left, right);
-    if (pivotIndex === targetIndex) {
-      return nums[pivotIndex];
-    } else if (pivotIndex < targetIndex) {
-      left = pivotIndex + 1;
+    const [l, r] = partition(nums, start, end);
+    if (index <= l) {
+      end = l;
+    } else if (index >= r) {
+      start = r;
     } else {
-      right = pivotIndex - 1;
+      return nums[index];
     }
   }
 }

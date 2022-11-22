@@ -1,18 +1,18 @@
-let activeEffect: ReactiveEffect | undefined;
+let activeEffect: ReactiveEffect<any> | undefined;
 
-type DepsList = Set<ReactiveEffect>;
+type DepsList = Set<ReactiveEffect<any>>;
 type Deps = Map<string | symbol, DepsList>;
 const targetToDeps = new WeakMap<object, Deps>();
 
-class ReactiveEffect {
-  private effectFn: () => any;
+class ReactiveEffect<T> {
+  private effectFn: () => T;
 
-  public constructor(effectFn: () => any) {
+  public constructor(effectFn: () => T) {
     this.effectFn = effectFn;
   }
 
   public run() {
-    this.effectFn();
+    return this.effectFn();
   }
 }
 
@@ -103,4 +103,50 @@ class RefImpl<T> {
 
 export function ref<T>(value: T) {
   return new RefImpl(value);
+}
+
+class ComputedImpl<T> {
+  private getter: () => T;
+  private depsList: DepsList;
+  private dirty: boolean;
+  // @ts-ignore
+  private cacheValue: T;
+  private effect: ReactiveEffect<void>;
+
+  public constructor(getter: () => T) {
+    this.getter = getter;
+    this.depsList = new Set();
+    this.dirty = true;
+
+    // 这与 Vue3 实现方法并不一致，官方使用 scheduler
+    // 但原理本质上是一致的
+    this.effect = new ReactiveEffect(() => {
+      this.dirty = true;
+      for (const dep of this.depsList) {
+        dep.run();
+      }
+    });
+  }
+
+  public get value() {
+    if (activeEffect && !this.depsList.has(activeEffect)) {
+      this.depsList.add(activeEffect);
+    }
+
+    if (this.dirty) {
+      // 不把依赖收集放到 constructor 中，是为了实现 compute lazily
+      // 这里实际上可以优化，不必每次都进行一遍依赖收集
+      activeEffect = this.effect;
+      this.cacheValue = this.getter();
+      activeEffect = undefined;
+
+      this.dirty = false;
+    }
+
+    return this.cacheValue;
+  }
+}
+
+export function computed<T>(getter: () => T): ComputedImpl<T> {
+  return new ComputedImpl(getter);
 }

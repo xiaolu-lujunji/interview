@@ -32,7 +32,7 @@ My preparation for improving front-end interview skills.
 
   宏任务
 
-  - 事件回调
+  - DOM 事件回调
   - `setTimeout()` 安排的回调
   - `setInterval()` 安排的回调
   - Node.js 中 `setImmediate()` 安排的回调
@@ -84,9 +84,73 @@ My preparation for improving front-end interview skills.
   getA();
   ```
 
-- [x] `<script>` 元素的 `defer` 和 `async` 属性
+- [x] `<script>` 元素的 `async` 和 `defer` 属性
 
   - `async` : 如果 `<script>` 元素存在 `async` 属性，那么脚本将在 HTML 文档解析的同时被获取（**脚本的获取**不会阻塞 HTML 文档的解析），并在其可用时被评估。
   - `defer` : 如果 `<script>` 元素存在 `defer` 属性，那么脚本将在 HTML 文档被解析后，`DOMContentLoaded` 事件被触发前执行。（**脚本的执行**不会阻塞 HTML 文档的解析，但阻塞 `DOMContentLoaded` 事件的触发）
 
 - [x] [write your own `instanceof`](https://bigfrontend.dev/problem/write-your-own-instanceof)
+
+- [x] [implement `Promise.allSettled()`](https://bigfrontend.dev/problem/implement-Promise-allSettled)
+
+- [x] [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+
+- [x] 输出是什么
+
+  ```javascript
+  Object.prototype.a = "object";
+  Function.prototype.a = "function";
+  function Person() {}
+  var child = new Person();
+  console.log(Person.a);
+  console.log(child.a);
+  ```
+
+- [x] [你知道 Vue computed 原理吗？](./src/reactivity.ts)
+
+- [x] [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/)
+
+- [x] [1. 两数之和](https://leetcode.cn/problems/two-sum/)
+
+- [x] [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/)
+
+- [x] [1556. 千位分隔数](https://leetcode.cn/problems/thousand-separator/)
+
+- [x] [912. 排序数组](https://leetcode.cn/problems/sort-an-array/)
+
+- [ ] 实现 `el()` 函数
+
+  ```javascript
+  test("element", () => {
+    const ul = el("ul", { id: "list" }, [
+      el("li", { class: "item" }, ["Item 1"]),
+      el("li", { class: "item" }, ["Item 2"]),
+      el("li", { class: "item" }, ["Item 3"]),
+    ]);
+  
+    const ulRoot = ul.render();
+    document.body.appendChild(ulRoot);
+  
+    expect(document.body.innerHTML).toBe(
+      '<ul id="list"><li class="item">Item 1</li><li class="item">Item 2</li><li class="item">Item 3</li></ul>'
+    );
+  });
+  ```
+
+- [x] [15. 三数之和](https://leetcode.cn/problems/3sum/)
+
+- [x] [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+
+- [x] [341. 扁平化嵌套列表迭代器](https://leetcode.cn/problems/flatten-nested-list-iterator/)
+
+- [x] this 的指向是什么？为什么？
+
+  ```javascript
+  function foo() {
+    return () => this;
+  }
+  foo()();
+  ```
+
+- [x] [面试题 04.05. 合法二叉搜索树](https://leetcode.cn/problems/legal-binary-search-tree-lcci/)
+
