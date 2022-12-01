@@ -1,0 +1,5 @@
+- [ ] 自己实现 `vue-draggable` 指令
+- [ ] vue-router 具体实现
+  - [ ] hash 怎么实现
+  - [ ] history 怎么实现
+  - [ ] 两者实现有什么不一样
