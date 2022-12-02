@@ -5,6 +5,7 @@ My preparation for improving front-end interview skills.
 ## 我的实习面经记录
 
 - [字节跳动-番茄小说-前端-实习-一面](./byte-dance/tomato-novel/1.md)
+- [字节跳动-番茄小说-前端-实习-二面](./byte-dance/tomato-novel/2.md)
 
 ## 面试题汇总
 
