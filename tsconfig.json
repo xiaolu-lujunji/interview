@@ -5,7 +5,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "strict": true
+    "strict": true,
+    "allowJs": true
   },
   "exclude": ["node_modules", "./src/leet-code"]
 }
