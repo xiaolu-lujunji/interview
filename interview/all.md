@@ -53,3 +53,9 @@ value === null || typeof value !== 'object'
 ```
 
 - [x] 基本数据类型
+- [x] `debounce()`
+- [x] `throttle()`
+- [x] [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
+- [x] [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+- [x] `httpOnly` 是什么？怎么用？为什么要用？
+- [x] cookie 的属性有哪些
