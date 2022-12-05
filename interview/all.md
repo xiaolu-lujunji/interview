@@ -59,3 +59,8 @@ value === null || typeof value !== 'object'
 - [x] [155. 最小栈](https://leetcode.cn/problems/min-stack/)
 - [x] `httpOnly` 是什么？怎么用？为什么要用？
 - [x] cookie 的属性有哪些
+- [x] 常见的状态码有哪些
+- [ ] vue 的双向绑定原理
+
+
+
